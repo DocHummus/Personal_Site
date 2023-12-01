@@ -1,3 +1,52 @@
 body {
     background-color: darkgreen;
+    padding: 20px;
+}
+
+nav {
+    overflow:hidden;
+    background-color: rgb(250, 233, 3);
+    position: fixed;
+    top: 0;
+    width: max-content;
+    padding-bottom: 2px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    padding: 2px;
+}
+
+nav a{
+    text-align: center;
+    margin: 0px;
+    justify-content: space-between;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+a {
+    font-family: cursive;
+}
+
+div {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#project {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+}
+
+
+div a{
+    display: block;
 }
